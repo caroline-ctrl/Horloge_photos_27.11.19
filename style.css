@@ -1,0 +1,38 @@
+body{
+    background: #FFA07A;
+}
+
+h1, h4, p{
+    text-align: center;
+}
+
+img{
+    width: 500px;
+}
+
+#p1{
+    font-size: 3.5em;
+    font-family: 'Odibee Sans', cursive;
+}
+
+#p2{
+    font-size: 3.5em;
+    font-family: 'Indie Flower', cursive;
+}
+
+#image{
+    margin: 50px 300px;
+    padding: 200px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px){
+    img{
+        width: 200px;
+        margin: auto;
+    }
+
+    #image{
+        text-align: center;
+    }
+}
